@@ -12,6 +12,7 @@ import About from './Components/About/About';
 import Services from './Components/Services/Services';
 import Contact from './Components/Contact/Contact';
 import Update from './Components/Update/Update';
+import Adduser from './Components/AddUser/Adduser';
 
 const router = createBrowserRouter([
   {
@@ -21,6 +22,10 @@ const router = createBrowserRouter([
       {
         path: "/",
         element: <Home />,
+      },
+      {
+        path: "/addUser",
+        element: <Adduser />,
       },
       {
         path: "/users",
